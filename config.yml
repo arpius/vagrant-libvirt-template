@@ -1,0 +1,14 @@
+---
+box: debian/buster64
+hostname: vagrant-template
+memory: 2048
+cpus: 2
+ip: 192.168.122.17
+network_device: virbr0
+network_mode: bridge
+network_type: bridge
+storage_pool_path: /data/VMs/
+session_uri: qemu:///session
+system_uri: qemu:///system
+synced_folder: data
+ssh_public_key: ~/.ssh/id_ed25519.pub
